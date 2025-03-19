@@ -1,6 +1,12 @@
 const menu = document.querySelector('#menu-bar');
 const navbarEl = document.querySelector('.navbar-menu');
 
+menu.addEventListener('click', () => {
+    menu.classList.toggle('active');
+    navbarEl.classList.toggle('active');
+    body.classList.toggle("active");
+})
+
 const fname = document.getElementById('fname'); 
 const phone = document.getElementById('phone');
 const emails = document.getElementById('email');
