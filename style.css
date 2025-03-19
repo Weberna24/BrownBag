@@ -71,6 +71,10 @@ body.active{
     padding: 1rem 0;
 }
 
+.navbar-menu.active{
+    display: none;
+}
+
 .navbar-menu li{
     padding: 0.8rem;
     list-style: none;
