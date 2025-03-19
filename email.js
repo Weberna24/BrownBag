@@ -1,3 +1,6 @@
+const menu = document.querySelector('#menu-bar');
+const navbarEl = document.querySelector('.navbar-menu');
+
 const fname = document.getElementById('fname'); 
 const phone = document.getElementById('phone');
 const emails = document.getElementById('email');
