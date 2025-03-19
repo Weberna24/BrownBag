@@ -1,4 +1,5 @@
 const menu = document.querySelector('#menu-bar');
+const cover = document.querySelector('.menu-cover');
 const navbarEl = document.querySelector('.navbar-menu');
 const btnWedding = document.getElementById('wedding');
 const btnBirthday = document.getElementById('birthday');
@@ -65,6 +66,7 @@ btnWedding.addEventListener('click', (e) => {
     overlay.classList.add("active");
     eventBox.classList.add("active");
     navbarEl.classList.add("active");
+    cover.classList.add("active");
 });
 
 btnBirthday.addEventListener('click', (e) => {
@@ -75,6 +77,7 @@ btnBirthday.addEventListener('click', (e) => {
     overlay.classList.add("active");
     eventBox.classList.add("active");
     navbarEl.classList.add("active");
+    cover.classList.add("active");
 });
 
 btnCocktail.addEventListener('click', (e) => {
@@ -85,6 +88,7 @@ btnCocktail.addEventListener('click', (e) => {
     overlay.classList.add("active");
     eventBox.classList.add("active");
     navbarEl.classList.add("active");
+    cover.classList.add("active");
 });
 
 btnBaby.addEventListener('click', (e) => {
@@ -95,6 +99,7 @@ btnBaby.addEventListener('click', (e) => {
     overlay.classList.add("active");
     eventBox.classList.add("active");
     navbarEl.classList.add("active");
+    cover.classList.add("active");
 });
 
 btnSport.addEventListener('click', (e) => {
@@ -115,6 +120,7 @@ btnFundraiser.addEventListener('click', (e) => {
     overlay.classList.add("active");
     eventBox.classList.add("active");
     navbarEl.classList.add("active");
+    cover.classList.add("active");
 });
 
 btnGraduation.addEventListener('click', (e) => {
@@ -125,6 +131,7 @@ btnGraduation.addEventListener('click', (e) => {
     overlay.classList.add("active");
     eventBox.classList.add("active");
     navbarEl.classList.add("active");
+    cover.classList.add("active");
 });
 
 btnWorkshop.addEventListener('click', (e) => {
@@ -135,6 +142,7 @@ btnWorkshop.addEventListener('click', (e) => {
     overlay.classList.add("active");
     eventBox.classList.add("active");
     navbarEl.classList.add("active");
+    cover.classList.add("active");
 });
 
 btnDinner.addEventListener('click', (e) => {
@@ -145,6 +153,7 @@ btnDinner.addEventListener('click', (e) => {
     overlay.classList.add("active");
     eventBox.classList.add("active");
     navbarEl.classList.add("active");
+    cover.classList.add("active");
 });
 
 
@@ -157,5 +166,6 @@ btnClose.addEventListener('click', (e) =>{
     overlay.classList.remove("active");
     eventBox.classList.remove("active");
     navbarEl.classList.remove("active");
+    cover.classList.remove("active");
 })
   
