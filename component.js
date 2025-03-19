@@ -14,7 +14,6 @@ const overlay = document.querySelector(".overlay");
 const btnClose = document.querySelector('.close');
 const eventBox = document.querySelector('.event-box');
 const eventText = document.querySelector('.event-text');
-const cover = document.querySelector('.cover');
 const eventSection = document.querySelector('.event-section');
 const footer = document.querySelector('.footer');
 let title = document.querySelector('.event-title');
@@ -75,7 +74,6 @@ btnBirthday.addEventListener('click', (e) => {
     overlay.classList.add("active");
     eventBox.classList.add("active");
     navbarEl.classList.add("active");
-    cover.classList.add("active");
 });
 
 btnCocktail.addEventListener('click', (e) => {
