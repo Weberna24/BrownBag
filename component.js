@@ -63,7 +63,6 @@ btnWedding.addEventListener('click', (e) => {
     body.classList.add("active");
     overlay.classList.add("active");
     eventBox.classList.add("active");
-    navbarEl.classList.add("active");
 });
 
 btnBirthday.addEventListener('click', (e) => {
@@ -73,7 +72,6 @@ btnBirthday.addEventListener('click', (e) => {
     body.classList.add("active");
     overlay.classList.add("active");
     eventBox.classList.add("active");
-    navbarEl.classList.add("active");
 });
 
 btnCocktail.addEventListener('click', (e) => {
@@ -83,7 +81,6 @@ btnCocktail.addEventListener('click', (e) => {
     body.classList.add("active");
     overlay.classList.add("active");
     eventBox.classList.add("active");
-    navbarEl.classList.add("active");
 });
 
 btnBaby.addEventListener('click', (e) => {
@@ -93,7 +90,6 @@ btnBaby.addEventListener('click', (e) => {
     body.classList.add("active");
     overlay.classList.add("active");
     eventBox.classList.add("active");
-    navbarEl.classList.add("active");
 });
 
 btnSport.addEventListener('click', (e) => {
@@ -103,7 +99,6 @@ btnSport.addEventListener('click', (e) => {
     body.classList.add("active");
     overlay.classList.add("active");
     eventBox.classList.add("active");
-    navbarEl.classList.add("active");
 });
 
 btnFundraiser.addEventListener('click', (e) => {
@@ -113,7 +108,6 @@ btnFundraiser.addEventListener('click', (e) => {
     body.classList.add("active");
     overlay.classList.add("active");
     eventBox.classList.add("active");
-    navbarEl.classList.add("active");
 });
 
 btnGraduation.addEventListener('click', (e) => {
@@ -123,7 +117,6 @@ btnGraduation.addEventListener('click', (e) => {
     body.classList.add("active");
     overlay.classList.add("active");
     eventBox.classList.add("active");
-    navbarEl.classList.add("active");
 });
 
 btnWorkshop.addEventListener('click', (e) => {
@@ -133,7 +126,6 @@ btnWorkshop.addEventListener('click', (e) => {
     body.classList.add("active");
     overlay.classList.add("active");
     eventBox.classList.add("active");
-    navbarEl.classList.add("active");
 });
 
 btnDinner.addEventListener('click', (e) => {
@@ -143,7 +135,6 @@ btnDinner.addEventListener('click', (e) => {
     body.classList.add("active");
     overlay.classList.add("active");
     eventBox.classList.add("active");
-    navbarEl.classList.add("active");
 });
 
 
