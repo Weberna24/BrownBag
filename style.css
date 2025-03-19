@@ -28,6 +28,10 @@ body.active{
   background-color: #EDECDF;
 }
 
+.menu-cover.active{
+    display: none;
+}
+
 .navbar{
   width: 100%;
 }
