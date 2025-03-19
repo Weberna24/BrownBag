@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/BrownBurger/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title>Demo</title>
+</head>
+<body>
+    <section class="menu-cover">
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="brand">
+                    <p class="brandName" >
+                        <a href="/BrownBurger/index.html"><img src="/BrownBurger/images/logo.png" alt=""></a>
+                    </p>
+                </div>
+                <ul class="navbar-menu">
+                    <li><a href="/BrownBurger/index.html">Home</a></li>
+                    <li><a href="/BrownBurger/menu.html">Menu</a></li>
+                    <li><a href="/BrownBurger/event.html">Event</a></li>
+                    <li><a href="/BrownBurger/contact.html">Contact Us</a></li>
+
+                    <div class="navbar-heading">
+                        <h1 class="title">BrownBag HQ</h1>
+                        <p class="text">Bringing the Burger Love to Your Event – Fresh, Flavorful, and Always on Time</p>
+                    </div>
+                </ul>
+                <div class="navbar-toggle" id="menu-bar">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section class="event-section">
+        <div class="event-collection">
+            <h2 class="heading">Transform Your Event with BrownBag HQ Catering Services!</h2>
+            <div class="text">
+                <p>
+                    Whether you're a fan of savory snacks, hearty meals, or sweet treats, The Rolling Feast is here to satisfy your cravings. Great food doesn’t have to be fancy – it just has to be good. And that’s exactly what we do – serve up fresh, flavorful food that will have you coming back for more. Don’t just take our word for it – come by, try our food, and see for yourself what all the buzz is about!     
+                </p>
+            </div>
+            <div class="event-container">
+                <div class="event-card" id="wedding">
+                    <div class="event-header">Wedding</div>
+                    <div class="event-content">
+                        <div class="event-image">
+                            <img src="/BrownBurger/images/dance.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" id="birthday">
+                    <div class="event-header">Birthday</div>
+                    <div class="event-content">
+                        <div class="event-image">
+                            <img src="/BrownBurger/images/birthday-cake.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" id="cocktail">
+                    <div class="event-header">Cocktail Party</div>
+                    <div class="event-content">
+                        <div class="event-image">
+                            <img src="/BrownBurger/images/cheers.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" id="baby">
+                    <div class="event-header" id="baby">Baby Shower</div>
+                    <div class="event-content">
+                        <div class="event-image">
+                            <img src="/BrownBurger/images/baby-bath.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" id="sport">
+                    <div class="event-header">Sporting Events</div>
+                    <div class="event-content">
+                        <div class="event-image">
+                            <img src="/BrownBurger/images/sports.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" id="fundraiser">
+                    <div class="event-header">Fundraisers</div>
+                    <div class="event-content">
+                        <div class="event-image">
+                            <img src="/BrownBurger/images/crowdfunding.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" id="graduation">
+                    <div class="event-header">Graduation Ceremonies</div>
+                    <div class="event-content">
+                        <div class="event-image">
+                            <img src="/BrownBurger/images/mortarboard.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" id="workshop">
+                    <div class="event-header">Workshops</div>
+                    <div class="event-content">
+                        <div class="event-image">
+                            <img src="/BrownBurger/images/workshop.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="event-card" id="dinner">
+                    <div class="event-header">Dinner Party</div>
+                    <div class="event-content">
+                        <div class="event-image">
+                            <img src="/BrownBurger/images/serving-dish.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="overlay">
+        <div class="event-box">
+            <div class="event-header">
+                <div class="event-title"></div>
+                <div class="close">
+                    <i id="close" class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="event-context">
+                <textarea class="event-text" disabled="true">Your wedding day is one of the most important moments of your life—and the food you serve should be just as unforgettable. At [Burger Cafe Name], we specialize in taking your big day to the next level with mouthwatering gourmet burgers and a catering experience that will delight your guests from the first bite to the last. From intimate ceremonies to extravagant receptions, we bring bold flavors, creative options, and impeccable service to your wedding celebration.</textarea>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-info">
+                <h2>BrownBag HQ</h2>
+                <a href="https://www.instagram.com/brownbagsa?igsh=dnc4YW95dWE4ODln"><i class="fa-brands fa-instagram"></i> brownbagsa</a>
+                <p>072-884-5140</p>
+                <p>thebrownbagsa@gmail.com</p>
+            </div>
+        </div>
+        <a href="https://www.instagram.com/_weberna_?igsh=MWl5M2l0ZDY4bTFkOA==">Developed by Weberna</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/BrownBurger/component.js"></script>
+    
+</body>
+</html>
